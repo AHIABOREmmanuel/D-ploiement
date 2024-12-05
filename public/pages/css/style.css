@@ -1,0 +1,314 @@
+/*
+Template Name: Petx | Pet Care & Pet Shop Website Template
+Author: Pillarix
+Author URI: https://wrapbootstrap.com/user/pillarix
+Version: 1.0
+*/
+/*
+-- Body
+-- Custom Classes 
+-- Navbar
+-- Blog
+-- My Account
+-- About
+-- Cart Page
+-- Filter Sidebar
+-- Mobile Media
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap');
+
+/* Body */
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+/* Custom Classes */
+a{
+	text-decoration: none;
+	color: #e64500;
+}
+.text-purple{
+	color: #F54A01 !important;
+}
+.btn-theme {
+	padding: 10px 25px !important;
+}
+.btn-purple{
+	background-color: #F54A01;
+	color: #ffffff;
+	border: 1px solid #F54A01;
+}
+.btn-purple:hover, .btn-purple:focus, .btn-outline-purple:hover {
+	background-color: #e64500;
+	color: #ffffff;
+	border: 1px solid #e64500;
+}
+.btn-outline-purple{
+	color: #e64500;
+	border: 1px solid #e64500;
+}
+.nav-pills.purple-tab .nav-link.active, .nav-pills.purple-tab .show>.nav-link {
+	background-color: #F54A01;
+}
+.bg-purple{
+	background-color: #F54A01;
+}
+.purple-tab .nav-link {
+	color: #F54A01;
+}
+.border-primary {
+	border-color: #F54A01 !important;
+}
+.form-check-input:checked {
+	background-color: #F54A01;
+	border-color: #F54A01;
+}
+.breadcrumb.bg-dark .breadcrumb-item+.breadcrumb-item::before {
+	color: rgb(204 204 204 / 23%);
+}
+.bg-opacity-purple {
+	background: rgb(139 61 255 / 8%);
+}
+
+/* Navbar */
+.osahan-header-logo .logo {
+	height: 30px;
+}
+.osahan-main-nav.fixed-top {
+	background-color: #000000 !important;
+}
+.elements-top-header  a.nav-link {
+	padding-top: 30px !important;
+	padding-bottom: 30px !important;
+	color: #ffffff !important;
+}
+.my-account-nav  a.nav-link {
+	padding-top: 30px !important;
+	padding-bottom: 30px !important;
+}
+
+/* Blog */
+.svg-border-rounded svg {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 60px;
+	width: 100%;
+}
+.sticky-sidebar {
+	position: sticky;
+	top: 20px;
+}
+.bg-primary.rounded-circle.admin-icon img {
+	height: 22px;
+	width: 22px;
+	object-fit: cover;
+}
+.bg-primary.rounded-circle.admin-icon {
+	background: transparent !important;
+}
+.blog-list-osahan .cover-background img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.blog-author-profile-header .profile-img {
+	height: 120px;
+	width: 120px;
+	object-fit: cover;
+}
+.portfolio-osahan-w .card-img {
+	height: 300px;
+	object-fit: cover;
+}
+.portfolio-osahan-h .card-img {
+	height: 600px;
+	object-fit: cover;
+}
+.shop-product-detail-slider {
+	margin-top: -155px !important;
+}
+.shop-product-detail-slider.small-img .img-fluid {
+	border: 4px solid #fff;
+}
+.shop-product-detail-slider.small-img .img-fluid.slick-current.slick-active {
+	border-color: #F54A01;
+}
+
+/* My Account */
+.avtar-sm {
+	width: 40px;
+	height: 40px;
+	object-fit: cover;
+}
+.osahan-sidebar {
+	margin-top: -120px;
+	position: relative;
+}
+.osahan-sidebar .profile-img {
+	height: 120px;
+    width: 120px;
+    object-fit: cover;
+}
+.btn-file {
+	position: relative;
+	overflow: hidden;
+}
+.btn-file input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: right;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	outline: none;
+	cursor: inherit;
+	width: 125px;
+	display: block;
+	height: 38px;
+}
+.osahan-sidebar-links .dropdown-item {
+	font-size: 15px;
+	padding: 12px 15px;
+	color: #595c5f;
+	border-radius: 8px;
+	margin: 2px 0;
+}
+.osahan-sidebar-links .dropdown-item.active, .osahan-sidebar-links .dropdown-item:hover {
+	background: rgb(139 61 255 / 8%);
+	color: #F54A01;
+}
+.osahan-user-header {
+	background-image: url(../../img/pages/banner.jpg);
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	height: 400px;
+	border-radius: 24px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	overflow: hidden;
+	max-width: 1380px;
+	margin: auto;
+}
+.build-something-together {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/pages/banner.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: -10rem;
+}
+.footer-icon {
+	height: 45px;
+	width: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.nav-tabs-osahan .nav-link {
+	color: #979797;
+}
+.nav-tabs-osahan .nav-link.active {
+	color: #F54A01;
+}
+
+/* About */
+.bg-elements {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/pages/banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Cart Page */
+.cart-img.rounded-2 {
+	height: 70px;
+	width: 58px;
+	min-width: 58px;
+	object-fit: cover;
+}
+.quantity-osahan {
+	width: 110px;
+	text-align: center;
+	border-radius: 10px;
+	border: 0px solid #dee2e6;
+	overflow: hidden;
+	padding: 3px;
+}
+.quantity-osahan .quantity-input {
+	text-align: center;
+}
+.quantity-osahan .btn {
+	padding: 0 0 1px 0;
+	border-radius: 8px !important;
+	width: 33px;
+	height: 33px;
+	display: flex;
+	align-items: end;
+	justify-content: center;
+	font-size: 23px;
+}
+.quantity-osahan .quantity-input {
+	border: none;
+	padding: 0px;
+}
+
+/* Filter Sidebar */
+.osahan-filter .accordion-button {
+	border-radius: 0px !important;
+	font-weight: bold;
+	color: #000;
+	padding: 0 0 19px 0px;
+	background: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	border-bottom: 1px solid #dee2e6;
+	box-shadow: none;
+	letter-spacing: 1px;
+	position: relative;
+}
+.osahan-filter .accordion-item {
+	border: none;
+	border-radius: 0px !important;
+	margin-bottom: 20px;
+}
+.osahan-filter .accordion-body {
+	padding: 18px 0 27px 0;
+}
+.osahan-filter .accordion-button:after {
+	width: 16px;
+	height: 16px;
+	background-size: 16px;
+}
+.osahan-filter .accordion-button:before {
+	border-bottom: 3px solid #F54A01;
+	width: 62px;
+	position: absolute;
+	content: "";
+	bottom: -1px;
+}
+
+/* Mobile Media */
+@media (max-width:992px) {
+	.m-none {
+		display: none;
+	}
+}
+@media (min-width:1280px) {
+	.position-lg-relative {
+		position: relative;
+	}
+    .position-lg-absolute {
+		position: absolute;
+	}
+}
+
+
+
+
+
+
+
+
